@@ -19,7 +19,9 @@ git clone git@github.com:cpina/dacco-cvs.git
 cd dacco-cvs
 find . -name "*.gz" -exec gunzip {} \;
 export CVSROOT=$(pwd)
-mkdir /tmp/dacco-cvs-root	
+mkdir /tmp/dacco-cvs-root
 cd /tmp/dacco-cvs-root
 cvs co Publisher
 ```
+
+This repository has been converted to git and imported into https://github.com/cpina/dacco
